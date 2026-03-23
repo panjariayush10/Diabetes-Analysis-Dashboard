@@ -1,0 +1,769 @@
+PatientID,Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Outcome,OutcomeLabel,BMI_Category,AgeGroup,GlucoseCategory,RiskLevel
+1,3,116,84,19,0,34.9,0.54,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+2,7,160,75,27,68,36.7,0.917,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+3,2,102,59,40,245,28.1,0.503,50,0,Non-Diabetic,Overweight,51-60,Pre-diabetic,Medium
+4,1,158,55,8,105,29.7,0.795,49,1,Diabetic,Overweight,41-50,Diabetic Range,High
+5,0,75,60,34,114,28.9,0.507,21,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+6,5,122,65,30,204,33.7,1.204,47,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+7,1,108,62,8,245,24.6,0.204,27,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+8,0,110,70,25,150,33,0.931,41,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+9,6,66,81,21,114,29.7,0.702,26,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+10,1,123,78,46,158,36.8,0.597,21,1,Diabetic,Obese,21-30,Pre-diabetic,High
+11,0,131,76,10,363,19.5,0.414,25,1,Diabetic,Normal,21-30,Diabetic Range,Medium
+12,3,97,56,26,199,34.4,0.572,47,0,Non-Diabetic,Obese,41-50,Normal,Medium
+13,1,107,79,36,239,33,0.285,51,0,Non-Diabetic,Obese,51-60,Pre-diabetic,Medium
+14,1,112,55,29,15,34.8,0.421,27,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+15,1,153,65,54,225,37.6,0.511,62,1,Diabetic,Obese,61+,Diabetic Range,High
+16,4,111,62,16,113,28.3,0.864,47,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+17,5,107,61,16,311,25.7,0.229,34,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+18,4,92,79,28,148,37.1,0.554,37,0,Non-Diabetic,Obese,31-40,Normal,High
+19,1,160,77,31,105,44.7,1.034,59,1,Diabetic,Obese,51-60,Diabetic Range,High
+20,3,115,61,35,142,23.5,0.534,21,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+21,0,130,73,18,217,29.5,0.563,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+22,3,110,90,11,148,27.7,0.398,24,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Low
+23,0,153,59,33,169,30.9,0.637,45,0,Non-Diabetic,Obese,41-50,Diabetic Range,High
+24,10,135,94,24,186,54.2,0.306,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+25,1,90,93,18,58,29.5,0.345,30,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+26,2,144,89,33,121,22.1,0.234,21,0,Non-Diabetic,Normal,21-30,Diabetic Range,High
+27,8,141,90,27,96,28.9,0.379,58,1,Diabetic,Overweight,51-60,Diabetic Range,High
+28,6,111,78,24,47,25.5,0.756,36,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+29,7,152,73,36,228,46.5,0.315,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+30,3,129,54,7,0,29.1,0.397,28,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+31,6,122,65,31,122,25,0.362,27,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+32,1,96,62,8,110,31,0.34,30,0,Non-Diabetic,Obese,31-40,Normal,Medium
+33,3,114,53,26,214,23.5,0.346,31,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+34,7,172,65,41,57,37.1,0.667,62,1,Diabetic,Obese,61+,Diabetic Range,High
+35,1,182,54,36,226,43.5,0.843,57,1,Diabetic,Obese,51-60,Diabetic Range,High
+36,4,142,87,44,0,34.1,0.05,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+37,1,189,64,46,36,34.1,1.04,39,1,Diabetic,Obese,31-40,Diabetic Range,High
+38,0,150,95,26,178,36.4,0.357,56,1,Diabetic,Obese,51-60,Diabetic Range,High
+39,7,192,50,32,286,21.5,1.015,43,1,Diabetic,Normal,41-50,Diabetic Range,High
+40,2,125,66,34,87,34.5,0.568,36,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+41,5,85,67,21,75,29.4,0.408,26,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+42,1,108,53,25,120,26.7,0.251,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Low
+43,0,132,83,26,209,34.3,0.69,51,1,Diabetic,Obese,51-60,Diabetic Range,Medium
+44,1,138,60,24,183,34.4,0.42,45,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+45,1,83,70,30,177,38.2,0.192,21,0,Non-Diabetic,Obese,21-30,Normal,High
+46,6,122,65,41,23,33.2,0.373,52,1,Diabetic,Obese,51-60,Pre-diabetic,Medium
+47,4,83,77,44,201,32.5,0.416,48,1,Diabetic,Obese,41-50,Normal,Medium
+48,2,108,67,28,0,34.4,0.564,24,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+49,3,162,76,41,78,38,0.156,53,1,Diabetic,Obese,51-60,Diabetic Range,High
+50,0,136,59,25,18,33.2,0.178,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+51,0,108,75,18,9,21.2,0.379,31,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+52,5,137,84,29,147,36.3,0.978,48,1,Diabetic,Obese,41-50,Diabetic Range,High
+53,3,85,65,30,170,36.1,0.256,41,0,Non-Diabetic,Obese,41-50,Normal,High
+54,0,108,68,19,194,38.5,0.05,42,0,Non-Diabetic,Obese,41-50,Pre-diabetic,High
+55,0,95,63,29,173,34.8,0.456,31,0,Non-Diabetic,Obese,31-40,Normal,Medium
+56,3,97,69,26,88,23.4,0.595,27,0,Non-Diabetic,Normal,21-30,Normal,Low
+57,3,131,74,29,202,30.5,0.97,35,1,Diabetic,Obese,31-40,Diabetic Range,Medium
+58,0,109,72,39,110,35.1,0.42,32,0,Non-Diabetic,Obese,31-40,Pre-diabetic,High
+59,0,111,43,28,113,31.3,0.513,34,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+60,2,96,51,34,183,29.5,0.311,25,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+61,2,131,69,18,0,21.9,0.631,36,0,Non-Diabetic,Normal,31-40,Diabetic Range,Medium
+62,0,182,86,42,61,47.7,1.104,33,1,Diabetic,Obese,31-40,Diabetic Range,High
+63,4,89,76,18,214,30.7,0.327,25,0,Non-Diabetic,Obese,21-30,Normal,Medium
+64,0,102,57,25,0,28.1,0.817,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+65,3,107,60,38,0,40.1,0.655,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+66,5,135,75,38,114,37.7,1.037,23,1,Diabetic,Obese,21-30,Diabetic Range,High
+67,1,140,75,39,147,33.9,0.231,53,1,Diabetic,Obese,51-60,Diabetic Range,Medium
+68,0,65,69,33,127,27.7,0.244,26,0,Non-Diabetic,Overweight,21-30,Normal,Low
+69,3,73,75,21,195,28.9,0.586,21,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+70,5,91,69,37,217,25.6,0.595,42,1,Diabetic,Overweight,41-50,Normal,Low
+71,2,123,71,28,143,36.9,0.444,23,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+72,3,135,68,42,83,40.7,0.288,55,1,Diabetic,Obese,51-60,Diabetic Range,High
+73,3,166,75,11,118,27.6,0.47,26,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+74,3,90,64,32,98,30.2,0.121,37,0,Non-Diabetic,Obese,31-40,Normal,Medium
+75,5,84,71,45,0,26.6,0.708,33,0,Non-Diabetic,Overweight,31-40,Normal,Low
+76,0,114,74,25,65,30.6,0.497,30,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+77,5,135,82,30,24,26.4,0.672,24,1,Diabetic,Overweight,21-30,Diabetic Range,Medium
+78,0,79,48,17,139,21.6,0.05,35,0,Non-Diabetic,Normal,31-40,Normal,Low
+79,3,95,83,21,75,36,0.657,37,0,Non-Diabetic,Obese,31-40,Normal,High
+80,1,99,68,37,118,27.5,0.57,43,0,Non-Diabetic,Overweight,41-50,Normal,Low
+81,3,75,60,49,159,35,0.63,62,1,Diabetic,Obese,61+,Normal,Medium
+82,3,123,64,17,49,26.9,0.425,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+83,8,157,65,32,90,45.6,0.377,31,1,Diabetic,Obese,31-40,Diabetic Range,High
+84,3,80,91,19,147,38.3,0.396,23,0,Non-Diabetic,Obese,21-30,Normal,High
+85,3,82,80,17,16,31.7,0.686,26,0,Non-Diabetic,Obese,21-30,Normal,Medium
+86,4,158,86,22,67,33.6,0.653,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+87,7,133,62,40,188,20,0.424,57,0,Non-Diabetic,Normal,51-60,Diabetic Range,Medium
+88,7,128,67,19,78,35.8,0.296,29,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+89,1,116,57,37,66,31.6,0.258,37,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+90,0,124,74,26,140,28.1,0.438,21,1,Diabetic,Overweight,21-30,Pre-diabetic,Medium
+91,4,99,55,29,220,39,0.518,29,0,Non-Diabetic,Obese,21-30,Normal,High
+92,0,86,52,38,90,36.4,0.48,35,0,Non-Diabetic,Obese,31-40,Normal,High
+93,0,81,72,14,129,22.1,0.592,45,0,Non-Diabetic,Normal,41-50,Normal,Low
+94,6,116,89,23,17,42.3,0.106,21,1,Diabetic,Obese,21-30,Pre-diabetic,High
+95,6,112,47,31,105,20.3,0.056,25,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+96,0,138,76,34,45,25,0.05,31,0,Non-Diabetic,Overweight,31-40,Diabetic Range,Medium
+97,2,129,78,22,137,36.2,0.385,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+98,1,144,100,41,238,35.1,0.765,51,1,Diabetic,Obese,51-60,Diabetic Range,High
+99,0,133,67,26,189,27.9,0.341,48,1,Diabetic,Overweight,41-50,Diabetic Range,Medium
+100,7,117,77,21,105,22.4,0.294,31,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+101,9,99,61,15,57,29.4,0.35,24,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+102,2,99,85,21,59,24,0.188,21,0,Non-Diabetic,Normal,21-30,Normal,Low
+103,0,128,56,38,42,27.2,0.641,29,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+104,1,98,83,30,133,15,0.276,31,0,Non-Diabetic,Underweight,31-40,Normal,Low
+105,0,107,86,11,114,29.4,0.22,48,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+106,4,199,69,30,0,45.8,0.447,46,1,Diabetic,Obese,41-50,Diabetic Range,High
+107,2,83,65,21,7,19.9,0.213,32,0,Non-Diabetic,Normal,31-40,Normal,Low
+108,3,161,71,9,41,29.9,0.498,37,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+109,1,98,70,35,80,26.8,0.425,39,0,Non-Diabetic,Overweight,31-40,Normal,Low
+110,4,90,53,36,75,29.3,0.293,39,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+111,4,60,81,36,113,15.7,0.608,41,0,Non-Diabetic,Underweight,41-50,Normal,Low
+112,5,60,60,22,154,30.6,0.524,44,0,Non-Diabetic,Obese,41-50,Normal,Medium
+113,3,88,57,43,116,29.6,0.534,21,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+114,4,114,74,33,54,37.2,0.798,47,0,Non-Diabetic,Obese,41-50,Pre-diabetic,High
+115,3,156,80,41,277,36.2,0.558,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+116,5,113,70,27,14,29.3,0.17,32,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+117,2,60,67,43,132,34.4,0.222,27,0,Non-Diabetic,Obese,21-30,Normal,Medium
+118,2,84,69,23,25,31.5,0.374,35,0,Non-Diabetic,Obese,31-40,Normal,Medium
+119,3,134,90,26,136,42.6,0.538,36,1,Diabetic,Obese,31-40,Diabetic Range,High
+120,2,95,49,19,2,28.7,0.269,28,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+121,5,85,70,35,141,26.5,0.237,33,0,Non-Diabetic,Overweight,31-40,Normal,Low
+122,3,147,69,48,244,38.1,0.22,43,1,Diabetic,Obese,41-50,Diabetic Range,High
+123,1,126,74,20,0,36,0.161,23,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+124,1,94,64,24,58,38.5,0.687,24,0,Non-Diabetic,Obese,21-30,Normal,High
+125,0,126,49,44,79,23,0.213,33,0,Non-Diabetic,Normal,31-40,Diabetic Range,Medium
+126,2,138,81,32,86,34.8,0.576,60,1,Diabetic,Obese,61+,Diabetic Range,Medium
+127,1,132,79,42,122,30.9,0.644,22,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+128,7,147,58,37,175,39.8,0.874,26,1,Diabetic,Obese,21-30,Diabetic Range,High
+129,6,83,68,25,216,34.3,0.573,29,0,Non-Diabetic,Obese,21-30,Normal,Medium
+130,1,136,70,24,234,40.3,0.561,33,1,Diabetic,Obese,31-40,Diabetic Range,High
+131,6,139,75,34,104,28.4,0.849,45,1,Diabetic,Overweight,41-50,Diabetic Range,Medium
+132,0,154,76,29,103,40,0.212,41,0,Non-Diabetic,Obese,41-50,Diabetic Range,High
+133,1,99,70,35,108,32.1,0.13,21,0,Non-Diabetic,Obese,21-30,Normal,Medium
+134,2,120,61,18,54,25.4,0.535,35,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+135,6,126,73,13,147,29.5,0.916,36,1,Diabetic,Overweight,31-40,Diabetic Range,Medium
+136,1,120,73,15,29,27.4,0.306,34,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+137,2,111,57,38,58,24,0.189,21,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+138,1,134,72,25,153,36.2,0.51,28,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+139,4,146,69,47,26,29.8,0.33,36,1,Diabetic,Overweight,31-40,Diabetic Range,High
+140,1,131,61,32,5,26.5,0.645,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+141,5,163,67,32,56,37.3,0.737,45,1,Diabetic,Obese,41-50,Diabetic Range,High
+142,3,123,76,26,170,25.2,0.672,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+143,2,141,76,24,209,22.3,0.05,29,0,Non-Diabetic,Normal,21-30,Diabetic Range,High
+144,5,124,75,41,78,23.2,0.606,25,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+145,5,121,50,19,0,28.9,0.086,28,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+146,0,94,75,30,144,36.1,0.338,25,0,Non-Diabetic,Obese,21-30,Normal,High
+147,5,148,69,37,0,36.4,0.498,43,1,Diabetic,Obese,41-50,Diabetic Range,High
+148,2,128,78,43,25,36.5,0.393,40,1,Diabetic,Obese,41-50,Diabetic Range,High
+149,4,112,78,24,213,22.5,0.506,21,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+150,1,155,64,62,75,30.5,0.604,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+151,1,128,51,32,140,21.8,0.073,21,0,Non-Diabetic,Normal,21-30,Diabetic Range,Medium
+152,5,122,61,28,44,32.3,0.35,47,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+153,2,87,70,30,103,25.1,0.418,38,0,Non-Diabetic,Overweight,31-40,Normal,Low
+154,3,153,59,18,0,32.7,0.558,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+155,1,102,57,31,100,29.1,0.837,30,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+156,0,125,73,27,120,20.2,0.609,30,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+157,6,106,66,21,94,33.4,0.603,48,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+158,5,104,64,31,95,22.5,0.377,32,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+159,1,75,70,34,93,40,0.46,22,0,Non-Diabetic,Obese,21-30,Normal,High
+160,0,147,54,33,183,24.7,0.404,38,1,Diabetic,Normal,31-40,Diabetic Range,High
+161,1,126,58,36,129,36.3,0.244,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+162,5,208,81,5,133,30.8,0.493,47,1,Diabetic,Obese,41-50,Diabetic Range,High
+163,4,119,48,25,131,21,0.761,35,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+164,1,138,66,7,102,18.8,0.372,39,0,Non-Diabetic,Normal,31-40,Diabetic Range,Medium
+165,4,123,56,26,125,26.8,0.26,43,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+166,4,105,70,33,52,34.3,0.418,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+167,2,94,60,32,0,32.7,0.384,35,0,Non-Diabetic,Obese,31-40,Normal,Medium
+168,2,149,75,22,151,22,0.297,32,0,Non-Diabetic,Normal,31-40,Diabetic Range,High
+169,2,112,54,19,87,26.8,0.285,41,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+170,0,111,84,34,229,16.2,0.861,38,1,Diabetic,Underweight,31-40,Pre-diabetic,Medium
+171,2,183,90,14,217,32.8,0.591,52,1,Diabetic,Obese,51-60,Diabetic Range,High
+172,0,104,70,9,61,35.1,0.141,36,0,Non-Diabetic,Obese,31-40,Pre-diabetic,High
+173,0,97,67,29,136,29.8,0.371,21,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+174,6,77,63,34,131,39.1,0.419,21,0,Non-Diabetic,Obese,21-30,Normal,High
+175,0,169,79,21,40,27.2,0.237,34,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+176,0,136,91,9,163,32.4,0.459,34,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+177,6,134,63,54,90,37.8,0.375,45,1,Diabetic,Obese,41-50,Diabetic Range,High
+178,2,99,79,22,99,32.7,0.374,27,0,Non-Diabetic,Obese,21-30,Normal,Medium
+179,0,127,57,28,85,37.7,0.509,29,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+180,0,79,75,15,101,25.8,0.954,22,0,Non-Diabetic,Overweight,21-30,Normal,Low
+181,0,107,71,37,127,25.5,0.435,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+182,6,105,48,32,94,24.2,0.625,25,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+183,4,141,79,32,245,31.8,0.41,30,1,Diabetic,Obese,31-40,Diabetic Range,High
+184,4,90,63,28,18,22.5,0.396,36,0,Non-Diabetic,Normal,31-40,Normal,Low
+185,5,62,72,37,241,41.9,0.652,68,1,Diabetic,Obese,61+,Normal,High
+186,0,62,63,11,160,28.1,0.05,25,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+187,4,120,79,37,136,29.9,0.243,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+188,1,134,66,30,38,38.8,0.282,29,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+189,4,156,75,29,248,27.3,0.652,25,1,Diabetic,Overweight,21-30,Diabetic Range,High
+190,5,149,94,27,41,23.7,0.774,25,0,Non-Diabetic,Normal,21-30,Diabetic Range,High
+191,0,119,59,16,0,20.2,0.223,29,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+192,2,60,72,31,0,21,0.255,31,0,Non-Diabetic,Normal,31-40,Normal,Low
+193,5,74,54,36,184,43.8,0.525,38,0,Non-Diabetic,Obese,31-40,Normal,High
+194,4,167,88,20,242,45.9,0.278,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+195,3,115,76,22,27,28.1,0.545,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+196,4,115,52,19,15,26.5,0.328,26,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+197,3,165,72,33,219,33.7,0.315,31,1,Diabetic,Obese,31-40,Diabetic Range,High
+198,2,138,80,30,81,46.2,0.486,59,1,Diabetic,Obese,51-60,Diabetic Range,High
+199,0,100,83,22,162,29.2,0.671,34,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+200,2,135,67,25,80,35.6,0.966,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+201,2,76,76,40,170,37.1,0.429,29,0,Non-Diabetic,Obese,21-30,Normal,High
+202,6,130,60,35,271,25.8,0.706,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+203,4,70,64,46,40,35.1,0.826,43,0,Non-Diabetic,Obese,41-50,Normal,High
+204,0,113,82,58,70,46.2,0.293,75,1,Diabetic,Obese,61+,Pre-diabetic,High
+205,3,165,72,47,152,21,0.575,34,1,Diabetic,Normal,31-40,Diabetic Range,High
+206,3,121,71,21,113,33.3,0.751,25,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+207,1,132,85,41,20,27,0.411,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+208,4,101,74,27,151,29.9,0.05,34,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+209,4,114,58,39,177,33.1,0.818,39,1,Diabetic,Obese,31-40,Pre-diabetic,Medium
+210,0,105,72,34,70,26.3,0.318,44,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Low
+211,8,116,66,24,129,26.6,0.453,51,1,Diabetic,Overweight,51-60,Pre-diabetic,Medium
+212,9,149,70,20,206,42,0.72,40,1,Diabetic,Obese,41-50,Diabetic Range,High
+213,3,125,70,29,256,38.2,0.677,26,1,Diabetic,Obese,21-30,Pre-diabetic,High
+214,4,119,57,18,93,35.7,0.507,42,0,Non-Diabetic,Obese,41-50,Pre-diabetic,High
+215,0,126,52,25,89,28.3,0.486,30,0,Non-Diabetic,Overweight,31-40,Diabetic Range,Medium
+216,2,115,66,15,164,31.1,0.05,35,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+217,6,72,81,35,62,25.9,0.125,21,0,Non-Diabetic,Overweight,21-30,Normal,Low
+218,0,123,79,13,79,29.6,0.438,26,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+219,8,105,69,38,99,32.5,0.735,34,1,Diabetic,Obese,31-40,Pre-diabetic,Medium
+220,1,119,58,29,0,33.6,0.435,31,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+221,5,138,70,34,68,35.6,0.745,55,1,Diabetic,Obese,51-60,Diabetic Range,High
+222,3,98,85,27,39,22.2,0.23,43,0,Non-Diabetic,Normal,41-50,Normal,Low
+223,6,129,66,33,190,46.9,0.367,37,1,Diabetic,Obese,31-40,Diabetic Range,High
+224,0,60,68,40,62,30.7,0.232,24,0,Non-Diabetic,Obese,21-30,Normal,Medium
+225,4,110,56,32,51,26.6,0.05,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+226,0,97,66,28,147,21.3,0.05,21,0,Non-Diabetic,Normal,21-30,Normal,Low
+227,5,117,75,22,15,32.2,0.319,45,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+228,0,60,70,16,252,43.5,0.47,29,0,Non-Diabetic,Obese,21-30,Normal,High
+229,9,91,68,23,71,36,0.278,61,0,Non-Diabetic,Obese,61+,Normal,High
+230,4,97,74,17,93,43.3,0.78,22,0,Non-Diabetic,Obese,21-30,Normal,High
+231,0,92,75,22,81,32.3,0.556,43,0,Non-Diabetic,Obese,41-50,Normal,Medium
+232,1,122,75,15,190,20.8,0.421,22,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+233,7,145,65,22,102,30.5,0.291,31,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+234,3,75,64,30,106,37.8,0.05,21,0,Non-Diabetic,Obese,21-30,Normal,High
+235,0,119,61,27,90,23.7,0.412,32,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+236,0,81,69,39,103,36.8,0.44,25,0,Non-Diabetic,Obese,21-30,Normal,High
+237,4,158,57,42,0,37.3,0.628,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+238,7,150,65,27,212,28.8,0.751,45,1,Diabetic,Overweight,41-50,Diabetic Range,High
+239,6,131,56,37,8,34.4,0.539,34,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+240,2,123,78,13,149,18.6,0.245,33,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+241,4,155,97,43,93,37.5,0.582,36,1,Diabetic,Obese,31-40,Diabetic Range,High
+242,0,166,72,18,264,20.9,0.229,42,0,Non-Diabetic,Normal,41-50,Diabetic Range,High
+243,3,119,74,32,40,33.8,0.3,28,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+244,8,105,56,30,96,18.9,0.582,51,0,Non-Diabetic,Normal,51-60,Pre-diabetic,Low
+245,0,99,86,42,173,42.2,0.535,43,1,Diabetic,Obese,41-50,Normal,High
+246,1,94,54,38,149,32.3,0.088,41,0,Non-Diabetic,Obese,41-50,Normal,Medium
+247,8,108,59,33,199,40.3,0.558,50,1,Diabetic,Obese,51-60,Pre-diabetic,High
+248,4,120,78,19,75,35,0.454,31,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+249,2,122,80,31,184,45.8,0.196,31,1,Diabetic,Obese,31-40,Pre-diabetic,High
+250,2,99,71,24,177,35.4,0.511,26,0,Non-Diabetic,Obese,21-30,Normal,High
+251,2,109,75,19,33,30.5,0.519,28,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+252,3,101,59,30,231,40,0.05,50,1,Diabetic,Obese,51-60,Pre-diabetic,High
+253,4,125,65,18,266,34.4,0.384,37,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+254,2,111,77,31,36,35.3,0.606,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+255,1,60,60,14,126,24.9,0.489,21,0,Non-Diabetic,Normal,21-30,Normal,Low
+256,0,85,74,23,61,24.3,0.127,39,0,Non-Diabetic,Normal,31-40,Normal,Low
+257,6,84,69,7,93,26.8,0.163,59,0,Non-Diabetic,Overweight,51-60,Normal,Low
+258,6,75,64,41,160,26.4,0.248,21,0,Non-Diabetic,Overweight,21-30,Normal,Low
+259,4,98,58,28,0,28.7,0.434,59,0,Non-Diabetic,Overweight,51-60,Normal,Medium
+260,4,106,66,25,189,36.3,0.18,25,1,Diabetic,Obese,21-30,Pre-diabetic,High
+261,3,130,74,32,91,32.6,0.376,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+262,5,107,75,20,212,33.1,0.765,32,1,Diabetic,Obese,31-40,Pre-diabetic,Medium
+263,6,87,55,41,272,29.6,0.556,46,0,Non-Diabetic,Overweight,41-50,Normal,Medium
+264,1,144,86,40,277,33.9,0.578,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+265,5,80,78,32,212,30.3,0.346,36,0,Non-Diabetic,Obese,31-40,Normal,Medium
+266,3,125,85,33,338,26.8,0.481,45,1,Diabetic,Overweight,41-50,Pre-diabetic,Medium
+267,0,82,83,15,13,28.1,0.242,21,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+268,3,125,73,33,198,23.3,0.404,36,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+269,5,110,60,8,0,28.7,0.44,34,1,Diabetic,Overweight,31-40,Pre-diabetic,Medium
+270,7,167,77,40,162,41.4,0.05,34,1,Diabetic,Obese,31-40,Diabetic Range,High
+271,2,68,77,24,102,39.5,0.492,21,0,Non-Diabetic,Obese,21-30,Normal,High
+272,8,157,85,34,6,32.4,0.508,37,1,Diabetic,Obese,31-40,Diabetic Range,High
+273,0,103,90,50,197,17.8,0.307,43,1,Diabetic,Underweight,41-50,Pre-diabetic,Low
+274,0,107,117,26,185,37.8,0.275,49,1,Diabetic,Obese,41-50,Pre-diabetic,High
+275,0,122,55,19,188,27.1,0.322,33,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+276,6,166,78,32,269,31,0.941,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+277,10,186,72,56,290,38.2,0.05,37,1,Diabetic,Obese,31-40,Diabetic Range,High
+278,1,122,62,23,0,30.1,0.09,35,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+279,1,86,73,15,0,35.5,0.566,25,0,Non-Diabetic,Obese,21-30,Normal,High
+280,3,166,70,52,162,34.1,0.099,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+281,0,138,72,29,172,30.6,0.589,27,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+282,5,83,63,20,188,32.1,0.45,25,0,Non-Diabetic,Obese,21-30,Normal,Medium
+283,3,126,59,50,100,32.2,0.741,27,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+284,3,162,70,30,103,26.2,0.987,35,1,Diabetic,Overweight,31-40,Diabetic Range,High
+285,6,134,65,26,43,42,0.552,31,1,Diabetic,Obese,31-40,Diabetic Range,High
+286,8,187,75,47,0,32.4,0.62,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+287,7,161,80,38,126,36.7,0.087,25,1,Diabetic,Obese,21-30,Diabetic Range,High
+288,4,137,73,28,81,33.7,0.162,46,1,Diabetic,Obese,41-50,Diabetic Range,Medium
+289,6,149,70,48,248,30.2,0.403,24,1,Diabetic,Obese,21-30,Diabetic Range,High
+290,4,108,72,16,68,21.4,0.181,29,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+291,0,100,79,13,93,28.9,0.491,40,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+292,1,132,75,18,52,47,0.33,43,0,Non-Diabetic,Obese,41-50,Diabetic Range,High
+293,6,88,64,21,0,39.4,0.313,45,0,Non-Diabetic,Obese,41-50,Normal,High
+294,5,151,75,37,56,30.3,0.311,48,1,Diabetic,Obese,41-50,Diabetic Range,High
+295,1,76,64,26,159,25.5,0.409,30,0,Non-Diabetic,Overweight,31-40,Normal,Low
+296,2,78,53,26,76,26.4,0.082,22,0,Non-Diabetic,Overweight,21-30,Normal,Low
+297,3,84,72,21,61,29,0.059,35,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+298,0,179,99,17,137,34.5,0.384,35,1,Diabetic,Obese,31-40,Diabetic Range,High
+299,2,179,60,52,189,34.9,0.651,41,1,Diabetic,Obese,41-50,Diabetic Range,High
+300,2,87,70,16,100,26.4,0.545,28,0,Non-Diabetic,Overweight,21-30,Normal,Low
+301,2,145,88,54,209,35.4,0.866,22,1,Diabetic,Obese,21-30,Diabetic Range,High
+302,7,129,58,40,40,24.9,0.514,45,0,Non-Diabetic,Normal,41-50,Diabetic Range,Medium
+303,0,131,72,8,98,34.2,0.779,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+304,2,90,69,32,48,28.8,0.411,35,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+305,3,116,64,25,102,35.8,0.367,30,1,Diabetic,Obese,31-40,Pre-diabetic,High
+306,0,135,68,28,164,36.1,0.05,32,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+307,2,133,54,36,152,30,0.675,46,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+308,4,197,88,44,94,33.4,0.292,58,1,Diabetic,Obese,51-60,Diabetic Range,High
+309,3,140,81,38,141,15.3,0.646,35,0,Non-Diabetic,Underweight,31-40,Diabetic Range,Medium
+310,7,155,56,34,81,34.9,0.659,39,1,Diabetic,Obese,31-40,Diabetic Range,High
+311,0,151,79,25,179,20.1,0.388,42,1,Diabetic,Normal,41-50,Diabetic Range,High
+312,6,153,78,27,4,34.6,0.474,36,1,Diabetic,Obese,31-40,Diabetic Range,High
+313,3,110,77,14,91,28.3,1.091,29,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+314,6,140,64,17,198,35.8,0.583,29,1,Diabetic,Obese,21-30,Diabetic Range,High
+315,2,120,59,19,26,25.5,0.336,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+316,2,132,61,41,209,32.1,0.247,35,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+317,4,91,64,33,173,33.7,0.392,32,1,Diabetic,Obese,31-40,Normal,Medium
+318,6,146,71,29,113,33.5,0.827,43,1,Diabetic,Obese,41-50,Diabetic Range,High
+319,3,120,73,36,43,22.1,0.13,39,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+320,2,90,77,8,114,23.6,0.417,49,0,Non-Diabetic,Normal,41-50,Normal,Low
+321,6,182,61,63,260,25.1,0.462,36,1,Diabetic,Overweight,31-40,Diabetic Range,High
+322,2,99,61,36,0,48.4,0.674,36,0,Non-Diabetic,Obese,31-40,Normal,High
+323,0,105,92,38,113,26.1,0.271,52,1,Diabetic,Overweight,51-60,Pre-diabetic,Low
+324,2,91,44,17,64,36.3,1.026,34,0,Non-Diabetic,Obese,31-40,Normal,High
+325,2,99,68,28,148,29.3,0.419,23,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+326,4,98,46,32,48,37.4,0.46,33,0,Non-Diabetic,Obese,31-40,Normal,High
+327,0,150,48,12,219,27.3,0.482,34,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+328,5,191,67,49,128,42.4,1.205,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+329,0,115,81,31,153,28.3,0.314,47,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+330,0,60,88,30,96,18.7,0.123,55,0,Non-Diabetic,Normal,51-60,Normal,Low
+331,5,122,65,27,48,33.1,0.405,34,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+332,4,76,51,21,118,29.5,0.502,45,0,Non-Diabetic,Overweight,41-50,Normal,Medium
+333,4,104,86,55,123,29.4,0.562,40,1,Diabetic,Overweight,41-50,Pre-diabetic,Medium
+334,4,133,57,25,61,39.9,0.61,41,0,Non-Diabetic,Obese,41-50,Diabetic Range,High
+335,11,157,77,23,262,22.9,0.376,27,1,Diabetic,Normal,21-30,Diabetic Range,High
+336,2,133,74,40,140,37.9,0.445,26,1,Diabetic,Obese,21-30,Diabetic Range,High
+337,6,125,55,34,89,34.3,0.752,42,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+338,1,157,83,27,193,30.9,0.227,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+339,4,137,78,39,95,29.6,0.745,47,1,Diabetic,Overweight,41-50,Diabetic Range,Medium
+340,4,130,87,21,155,28.9,0.665,42,0,Non-Diabetic,Overweight,41-50,Diabetic Range,Medium
+341,5,141,56,42,202,19.8,0.358,39,1,Diabetic,Normal,31-40,Diabetic Range,High
+342,1,120,58,10,68,17.3,0.492,21,0,Non-Diabetic,Underweight,21-30,Pre-diabetic,Medium
+343,5,103,56,41,26,25.8,0.145,50,0,Non-Diabetic,Overweight,51-60,Pre-diabetic,Low
+344,2,220,70,36,116,19.3,0.937,40,1,Diabetic,Normal,41-50,Diabetic Range,High
+345,2,119,61,44,17,34.9,0.509,46,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+346,4,60,73,30,4,23.3,0.388,28,0,Non-Diabetic,Normal,21-30,Normal,Low
+347,5,113,44,38,59,33.5,0.527,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+348,4,88,75,26,87,29,0.541,26,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+349,2,127,62,29,215,40.7,0.196,31,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+350,2,134,87,33,121,37.4,0.44,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+351,4,106,78,24,64,32.2,0.818,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+352,0,122,57,32,150,26.3,0.415,33,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+353,2,126,85,31,54,16.6,0.553,33,0,Non-Diabetic,Underweight,31-40,Diabetic Range,Medium
+354,7,74,67,29,112,23.9,0.632,29,0,Non-Diabetic,Normal,21-30,Normal,Low
+355,1,130,79,48,67,33.4,0.337,50,1,Diabetic,Obese,51-60,Diabetic Range,Medium
+356,5,158,63,19,15,28.8,0.644,38,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+357,0,206,75,26,62,39.8,0.561,43,1,Diabetic,Obese,41-50,Diabetic Range,High
+358,8,93,59,22,145,29.4,0.667,23,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+359,0,133,75,18,0,23.4,0.646,36,0,Non-Diabetic,Normal,31-40,Diabetic Range,Medium
+360,3,178,79,16,0,28.8,0.766,30,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+361,4,115,46,33,0,22.4,0.23,30,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+362,0,129,67,20,133,38.7,0.496,29,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+363,6,115,80,32,0,26.1,0.189,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+364,0,114,72,32,138,33.1,0.072,43,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+365,2,164,79,34,82,36.5,0.306,35,1,Diabetic,Obese,31-40,Diabetic Range,High
+366,10,81,78,14,51,46.6,0.804,33,1,Diabetic,Obese,31-40,Normal,High
+367,0,107,71,30,69,31.4,0.635,38,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+368,1,93,82,29,20,27,0.319,41,0,Non-Diabetic,Overweight,41-50,Normal,Low
+369,2,111,61,28,19,29.7,0.326,39,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+370,0,134,65,33,110,28.8,0.447,25,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+371,2,122,58,35,298,33.4,0.672,43,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+372,2,119,60,24,209,25,0.306,26,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+373,2,129,62,36,257,34.8,0.31,41,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+374,2,137,58,39,235,34.2,0.487,39,1,Diabetic,Obese,31-40,Diabetic Range,Medium
+375,5,187,77,21,13,38.6,0.462,31,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+376,4,95,68,23,7,26.7,0.727,22,0,Non-Diabetic,Overweight,21-30,Normal,Low
+377,6,140,82,39,168,31.7,0.493,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+378,6,138,88,39,293,34.7,0.626,42,1,Diabetic,Obese,41-50,Diabetic Range,Medium
+379,8,109,68,18,0,34.1,0.139,38,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+380,6,138,68,34,225,40.2,0.533,52,1,Diabetic,Obese,51-60,Diabetic Range,High
+381,3,130,70,30,42,29.3,0.322,37,0,Non-Diabetic,Overweight,31-40,Diabetic Range,Medium
+382,4,102,62,21,158,20.6,0.107,50,0,Non-Diabetic,Normal,51-60,Pre-diabetic,Low
+383,2,78,91,33,248,41.6,0.145,43,1,Diabetic,Obese,41-50,Normal,High
+384,1,107,64,32,85,22.6,0.568,33,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+385,1,92,74,41,119,38,0.05,29,0,Non-Diabetic,Obese,21-30,Normal,High
+386,3,133,75,34,237,32.7,0.146,45,1,Diabetic,Obese,41-50,Diabetic Range,Medium
+387,1,146,65,22,172,28.7,0.326,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+388,5,98,59,34,24,31.5,0.414,32,0,Non-Diabetic,Obese,31-40,Normal,Medium
+389,6,140,51,37,136,30.4,1.002,42,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+390,8,122,79,17,201,24,0.727,42,1,Diabetic,Normal,41-50,Pre-diabetic,Medium
+391,4,103,64,18,146,32.1,0.42,40,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+392,1,93,67,17,0,28.2,0.476,25,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+393,5,116,64,26,40,42.8,0.86,25,1,Diabetic,Obese,21-30,Pre-diabetic,High
+394,9,165,71,19,140,38.6,0.598,27,1,Diabetic,Obese,21-30,Diabetic Range,High
+395,0,173,84,43,351,30,0.743,36,1,Diabetic,Obese,31-40,Diabetic Range,High
+396,1,60,79,34,20,30.4,0.182,31,0,Non-Diabetic,Obese,31-40,Normal,Medium
+397,2,79,68,48,149,33.1,0.206,37,0,Non-Diabetic,Obese,31-40,Normal,Medium
+398,2,74,60,34,150,19.5,0.151,37,0,Non-Diabetic,Normal,31-40,Normal,Low
+399,7,146,59,24,278,36,0.375,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+400,6,140,63,29,0,31.9,0.05,24,1,Diabetic,Obese,21-30,Diabetic Range,Medium
+401,6,104,76,16,0,20.6,0.05,36,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+402,0,127,74,16,111,26.4,0.222,28,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+403,1,136,53,25,97,35,0.679,36,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+404,2,135,82,43,43,32.4,1,40,1,Diabetic,Obese,41-50,Diabetic Range,Medium
+405,3,174,59,45,48,31.1,0.473,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+406,0,80,48,10,213,34.6,0.391,34,0,Non-Diabetic,Obese,31-40,Normal,Medium
+407,2,78,56,39,4,37.5,0.239,39,0,Non-Diabetic,Obese,31-40,Normal,High
+408,0,75,57,35,86,33.5,0.719,32,0,Non-Diabetic,Obese,31-40,Normal,Medium
+409,7,118,82,30,143,31.2,0.442,46,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+410,2,156,82,57,225,28.6,0.276,38,1,Diabetic,Overweight,31-40,Diabetic Range,High
+411,1,114,59,29,143,36,0.528,23,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+412,2,113,74,23,157,31.5,0.781,27,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+413,2,113,67,23,33,36.3,0.249,50,0,Non-Diabetic,Obese,51-60,Pre-diabetic,High
+414,1,86,88,36,76,24.8,0.375,46,0,Non-Diabetic,Normal,41-50,Normal,Low
+415,0,118,57,46,140,32,0.667,36,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+416,8,107,67,40,141,31.3,0.05,44,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+417,4,89,41,30,0,38.7,0.285,41,0,Non-Diabetic,Obese,41-50,Normal,High
+418,5,149,76,38,49,31.4,0.459,29,1,Diabetic,Obese,21-30,Diabetic Range,High
+419,7,135,74,29,61,29.9,0.248,27,1,Diabetic,Overweight,21-30,Diabetic Range,Medium
+420,0,161,78,40,176,28.7,0.509,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+421,3,94,58,23,92,21.2,0.669,22,0,Non-Diabetic,Normal,21-30,Normal,Low
+422,2,85,48,32,0,19.3,0.805,37,0,Non-Diabetic,Normal,31-40,Normal,Low
+423,2,143,68,6,60,26.1,0.764,27,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+424,4,91,58,31,141,31.5,0.295,26,0,Non-Diabetic,Obese,21-30,Normal,Medium
+425,0,182,51,46,156,30.5,0.479,47,1,Diabetic,Obese,41-50,Diabetic Range,High
+426,7,114,74,45,254,41.9,0.779,55,1,Diabetic,Obese,51-60,Pre-diabetic,High
+427,5,94,62,17,54,26.1,0.564,27,0,Non-Diabetic,Overweight,21-30,Normal,Low
+428,2,117,84,12,152,36,0.687,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,High
+429,3,99,79,33,185,36,0.055,22,0,Non-Diabetic,Obese,21-30,Normal,High
+430,3,150,70,36,167,33.7,0.547,30,1,Diabetic,Obese,31-40,Diabetic Range,High
+431,4,136,60,0,31,19.3,0.486,21,0,Non-Diabetic,Normal,21-30,Diabetic Range,Medium
+432,7,107,59,17,118,23.9,0.577,34,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+433,0,98,64,18,93,35.8,0.904,42,0,Non-Diabetic,Obese,41-50,Normal,High
+434,1,86,68,30,179,34.8,0.501,47,0,Non-Diabetic,Obese,41-50,Normal,Medium
+435,10,119,84,32,167,40.5,0.52,47,1,Diabetic,Obese,41-50,Pre-diabetic,High
+436,2,119,61,22,88,26.2,0.247,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+437,0,71,83,19,93,34.2,0.232,38,0,Non-Diabetic,Obese,31-40,Normal,Medium
+438,1,119,72,39,146,30.4,0.557,22,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+439,1,115,86,26,21,25.4,0.44,30,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+440,3,178,78,42,267,42.8,0.639,41,1,Diabetic,Obese,41-50,Diabetic Range,High
+441,6,180,69,33,153,33.5,0.145,39,1,Diabetic,Obese,31-40,Diabetic Range,High
+442,6,201,72,44,308,26.6,0.255,51,1,Diabetic,Overweight,51-60,Diabetic Range,High
+443,6,106,83,22,164,25.8,0.334,38,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+444,3,128,58,23,119,35.1,0.562,37,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+445,3,97,67,23,104,20.5,0.17,48,0,Non-Diabetic,Normal,41-50,Normal,Low
+446,0,86,66,38,123,30.9,0.813,34,0,Non-Diabetic,Obese,31-40,Normal,Medium
+447,5,107,51,26,70,34.1,0.607,22,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+448,2,162,65,40,291,37.1,0.193,46,1,Diabetic,Obese,41-50,Diabetic Range,High
+449,4,131,64,31,199,32.5,0.375,57,1,Diabetic,Obese,51-60,Diabetic Range,Medium
+450,3,103,82,28,27,31,0.173,23,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+451,2,101,76,23,0,34.9,0.165,24,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+452,4,119,73,21,137,20.7,0.314,21,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+453,8,120,68,40,226,27.5,0.452,45,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+454,4,76,97,25,88,33.3,0.183,42,1,Diabetic,Obese,41-50,Normal,Medium
+455,0,94,70,19,0,29.1,0.476,38,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+456,2,113,70,28,101,40.7,1.043,24,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+457,4,84,61,27,73,33.6,0.517,25,0,Non-Diabetic,Obese,21-30,Normal,Medium
+458,1,129,66,23,71,36.6,0.297,39,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+459,5,163,78,52,106,47,0.396,35,1,Diabetic,Obese,31-40,Diabetic Range,High
+460,1,141,65,29,0,36,0.361,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+461,2,116,70,8,0,27.6,0.277,29,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+462,3,197,75,35,199,30.1,0.089,53,1,Diabetic,Obese,51-60,Diabetic Range,High
+463,3,102,94,32,376,29.8,0.05,52,1,Diabetic,Overweight,51-60,Pre-diabetic,Medium
+464,6,121,63,29,150,26.9,0.333,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+465,2,119,59,36,48,41.8,0.634,55,1,Diabetic,Obese,51-60,Pre-diabetic,High
+466,3,150,55,2,111,33.7,0.33,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+467,4,151,60,23,133,28,0.814,36,1,Diabetic,Overweight,31-40,Diabetic Range,High
+468,3,96,78,41,164,30.6,0.429,58,1,Diabetic,Obese,51-60,Normal,Medium
+469,5,112,79,21,56,25.4,0.421,31,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+470,6,107,74,36,167,29.9,0.52,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+471,7,128,78,40,146,36.5,0.386,41,1,Diabetic,Obese,41-50,Diabetic Range,High
+472,2,70,66,29,42,22.3,0.312,51,0,Non-Diabetic,Normal,51-60,Normal,Low
+473,1,121,57,21,44,26.6,0.599,30,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+474,1,122,68,43,0,32,0.693,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+475,6,87,79,13,108,34,0.282,39,0,Non-Diabetic,Obese,31-40,Normal,Medium
+476,3,167,92,27,268,24.7,0.313,35,1,Diabetic,Normal,31-40,Diabetic Range,High
+477,6,130,83,33,288,34.3,0.851,44,1,Diabetic,Obese,41-50,Diabetic Range,Medium
+478,5,135,65,28,113,28.3,0.099,23,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+479,1,115,72,45,156,28.2,0.405,30,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+480,1,108,73,17,0,27.9,0.574,32,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+481,3,144,71,24,7,32.1,0.834,35,1,Diabetic,Obese,31-40,Diabetic Range,High
+482,2,60,76,26,58,22.6,0.241,24,0,Non-Diabetic,Normal,21-30,Normal,Low
+483,1,96,61,21,171,31.7,0.196,21,0,Non-Diabetic,Obese,21-30,Normal,Medium
+484,4,155,68,32,47,28.7,0.425,31,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+485,1,136,68,26,148,35.3,0.43,42,0,Non-Diabetic,Obese,41-50,Diabetic Range,High
+486,1,131,81,21,143,29,0.65,22,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+487,0,157,56,31,304,37.4,0.281,42,1,Diabetic,Obese,41-50,Diabetic Range,High
+488,4,87,57,26,196,30,0.46,35,0,Non-Diabetic,Obese,31-40,Normal,Medium
+489,4,160,79,31,18,35.6,0.709,32,1,Diabetic,Obese,31-40,Diabetic Range,High
+490,4,136,34,12,128,23.9,0.791,27,0,Non-Diabetic,Normal,21-30,Diabetic Range,Medium
+491,4,135,72,34,225,34.1,0.05,48,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+492,2,145,61,34,136,25.2,0.667,41,1,Diabetic,Overweight,41-50,Diabetic Range,High
+493,2,100,60,22,188,43.1,0.556,43,0,Non-Diabetic,Obese,41-50,Pre-diabetic,High
+494,6,126,87,32,62,35.9,0.623,31,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+495,6,179,88,37,161,36.6,0.239,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+496,3,115,71,12,0,37.9,0.414,29,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+497,0,145,67,38,413,37.6,0.093,28,1,Diabetic,Obese,21-30,Diabetic Range,High
+498,3,101,59,40,212,23.1,0.442,25,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+499,2,151,84,34,88,41.7,0.05,37,1,Diabetic,Obese,31-40,Diabetic Range,High
+500,3,104,75,27,101,25.7,0.256,37,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+501,5,144,65,32,30,29.4,0.483,63,1,Diabetic,Overweight,61+,Diabetic Range,High
+502,2,93,62,25,73,27.3,0.408,21,0,Non-Diabetic,Overweight,21-30,Normal,Low
+503,6,118,79,37,152,34,0.144,45,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+504,0,87,78,46,169,31.3,0.667,29,0,Non-Diabetic,Obese,21-30,Normal,Medium
+505,4,139,72,36,72,23.1,0.673,47,0,Non-Diabetic,Normal,41-50,Diabetic Range,Medium
+506,3,129,71,49,39,37.4,0.623,31,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+507,5,110,82,34,204,27.1,0.473,36,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+508,4,83,50,30,138,25.1,0.536,25,0,Non-Diabetic,Overweight,21-30,Normal,Low
+509,4,125,82,43,155,28.1,0.893,52,1,Diabetic,Overweight,51-60,Pre-diabetic,Medium
+510,0,94,65,30,0,29.1,0.982,29,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+511,5,143,66,0,75,27.9,0.596,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+512,4,161,57,32,272,22.4,0.329,41,1,Diabetic,Normal,41-50,Diabetic Range,High
+513,5,159,82,28,127,36.2,0.436,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+514,0,102,50,35,215,26.6,0.152,46,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Low
+515,1,106,54,30,111,30.2,0.218,25,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+516,5,122,62,20,22,39.9,0.447,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+517,3,96,66,21,99,38.7,0.531,31,0,Non-Diabetic,Obese,31-40,Normal,High
+518,3,92,67,25,167,31.2,0.487,21,0,Non-Diabetic,Obese,21-30,Normal,Medium
+519,3,135,74,28,63,34.6,0.631,41,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+520,1,79,57,28,126,30.4,0.228,28,0,Non-Diabetic,Obese,21-30,Normal,Medium
+521,4,89,72,22,184,34.6,0.448,44,0,Non-Diabetic,Obese,41-50,Normal,Medium
+522,0,96,69,43,135,31.3,0.622,21,0,Non-Diabetic,Obese,21-30,Normal,Medium
+523,1,167,76,44,37,29.9,0.387,34,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+524,4,126,68,22,88,24.9,0.395,40,0,Non-Diabetic,Normal,41-50,Diabetic Range,Medium
+525,1,108,66,16,48,33,0.456,31,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+526,0,182,79,44,164,33.6,1.093,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+527,2,134,57,29,168,32.2,0.405,33,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+528,1,154,87,12,213,39.7,0.578,49,1,Diabetic,Obese,41-50,Diabetic Range,High
+529,4,122,75,20,178,30.9,1.026,26,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+530,0,148,53,28,84,24.9,0.36,37,0,Non-Diabetic,Normal,31-40,Diabetic Range,High
+531,1,166,80,48,129,32.2,0.407,54,1,Diabetic,Obese,51-60,Diabetic Range,High
+532,11,163,68,28,143,40,0.817,58,1,Diabetic,Obese,51-60,Diabetic Range,High
+533,1,101,56,47,273,32.8,0.401,37,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+534,1,60,59,33,141,36.5,0.177,39,0,Non-Diabetic,Obese,31-40,Normal,High
+535,1,87,73,45,40,33.9,0.348,39,0,Non-Diabetic,Obese,31-40,Normal,Medium
+536,3,112,54,26,190,30,0.579,37,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+537,5,80,69,16,32,21.3,0.726,22,0,Non-Diabetic,Normal,21-30,Normal,Low
+538,4,151,71,35,105,21.1,0.608,36,0,Non-Diabetic,Normal,31-40,Diabetic Range,High
+539,1,175,55,35,39,26.5,0.637,32,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+540,4,138,62,29,274,34.8,0.175,37,1,Diabetic,Obese,31-40,Diabetic Range,Medium
+541,0,82,66,29,81,36.8,0.413,44,0,Non-Diabetic,Obese,41-50,Normal,High
+542,0,74,66,35,117,25.4,0.532,30,0,Non-Diabetic,Overweight,31-40,Normal,Low
+543,3,103,65,23,95,32.7,0.209,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+544,5,145,62,34,154,25.9,0.462,45,0,Non-Diabetic,Overweight,41-50,Diabetic Range,High
+545,1,91,70,20,0,32.3,0.085,30,0,Non-Diabetic,Obese,31-40,Normal,Medium
+546,6,117,85,21,266,20.6,0.5,49,1,Diabetic,Normal,41-50,Pre-diabetic,Medium
+547,5,137,61,25,66,32.1,0.319,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+548,3,113,57,24,75,32.2,0.529,24,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+549,5,129,58,46,105,30.1,0.712,31,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+550,3,94,63,16,71,19,0.275,28,0,Non-Diabetic,Normal,21-30,Normal,Low
+551,8,198,79,25,11,31.2,1.151,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+552,5,121,59,30,47,36.1,0.38,33,1,Diabetic,Obese,31-40,Pre-diabetic,High
+553,0,127,72,22,150,35.3,0.516,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+554,4,103,60,17,85,26.7,0.135,30,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Low
+555,0,175,72,26,0,40.1,0.53,37,1,Diabetic,Obese,31-40,Diabetic Range,High
+556,5,133,67,35,165,21.1,0.382,27,0,Non-Diabetic,Normal,21-30,Diabetic Range,Medium
+557,5,92,41,29,100,27.4,0.342,37,0,Non-Diabetic,Overweight,31-40,Normal,Low
+558,0,90,72,16,63,33.5,0.43,43,0,Non-Diabetic,Obese,41-50,Normal,Medium
+559,2,114,73,50,165,30,0.927,42,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+560,3,98,75,18,0,32,0.117,38,0,Non-Diabetic,Obese,31-40,Normal,Medium
+561,0,88,65,29,29,29,0.05,21,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+562,1,121,72,27,11,39.5,0.381,38,1,Diabetic,Obese,31-40,Pre-diabetic,High
+563,3,144,66,34,23,23.3,0.609,31,0,Non-Diabetic,Normal,31-40,Diabetic Range,High
+564,0,107,70,18,142,30,0.661,32,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+565,4,143,79,31,0,28.2,0.437,33,0,Non-Diabetic,Overweight,31-40,Diabetic Range,High
+566,2,146,60,12,82,37.1,0.769,25,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+567,1,136,79,14,127,29,0.417,45,0,Non-Diabetic,Overweight,41-50,Diabetic Range,Medium
+568,0,133,73,38,124,26.7,0.26,26,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+569,7,102,73,26,160,26.7,0.46,23,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Low
+570,5,115,63,37,240,33.8,0.691,39,1,Diabetic,Obese,31-40,Pre-diabetic,Medium
+571,4,141,73,22,164,34.1,0.601,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+572,3,95,70,18,46,34.3,0.128,34,0,Non-Diabetic,Obese,31-40,Normal,Medium
+573,7,101,53,4,60,29.7,0.174,24,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+574,0,108,76,28,30,30.9,0.594,50,1,Diabetic,Obese,51-60,Pre-diabetic,Medium
+575,1,166,67,30,33,38.2,0.05,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+576,3,93,76,35,205,27,0.35,43,0,Non-Diabetic,Overweight,41-50,Normal,Low
+577,0,121,89,38,52,30.2,0.719,48,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+578,0,92,74,32,13,30.9,0.19,21,0,Non-Diabetic,Obese,21-30,Normal,Medium
+579,2,104,64,38,61,21.5,0.445,24,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+580,1,137,90,31,114,33.5,0.072,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+581,2,148,77,42,1,29.4,0.417,21,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+582,7,110,84,40,288,32,0.883,48,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+583,8,60,79,25,125,47.1,0.453,23,0,Non-Diabetic,Obese,21-30,Normal,High
+584,4,88,77,41,135,31.9,0.233,37,0,Non-Diabetic,Obese,31-40,Normal,Medium
+585,1,102,58,24,162,24,0.607,36,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+586,3,67,83,30,65,38.4,0.415,25,0,Non-Diabetic,Obese,21-30,Normal,High
+587,4,134,60,6,265,42.6,0.754,41,1,Diabetic,Obese,41-50,Diabetic Range,High
+588,4,89,61,32,175,23.3,0.343,21,0,Non-Diabetic,Normal,21-30,Normal,Low
+589,5,67,58,28,182,23.1,0.567,37,0,Non-Diabetic,Normal,31-40,Normal,Low
+590,2,106,63,14,112,35.6,0.698,44,0,Non-Diabetic,Obese,41-50,Pre-diabetic,High
+591,2,100,68,30,80,19.8,0.482,49,0,Non-Diabetic,Normal,41-50,Pre-diabetic,Low
+592,4,116,59,35,120,30.7,0.176,44,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+593,3,60,80,30,44,42.7,0.53,21,0,Non-Diabetic,Obese,21-30,Normal,High
+594,0,136,72,29,119,40.4,0.396,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+595,3,61,67,27,136,27.2,0.846,31,0,Non-Diabetic,Overweight,31-40,Normal,Low
+596,5,126,70,17,213,34.5,0.984,45,1,Diabetic,Obese,41-50,Diabetic Range,Medium
+597,0,104,71,40,228,33.5,0.632,38,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+598,0,76,73,31,210,24.7,0.681,32,0,Non-Diabetic,Normal,31-40,Normal,Low
+599,3,92,73,27,0,23.8,0.376,36,0,Non-Diabetic,Normal,31-40,Normal,Low
+600,3,112,66,36,66,22.8,0.05,26,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+601,4,69,48,9,165,32.9,0.266,53,0,Non-Diabetic,Obese,51-60,Normal,Medium
+602,7,100,87,34,13,31.8,0.452,54,1,Diabetic,Obese,51-60,Pre-diabetic,Medium
+603,2,98,68,35,147,37.5,0.626,37,1,Diabetic,Obese,31-40,Normal,High
+604,4,111,70,45,190,23.2,0.072,33,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Medium
+605,0,145,81,37,174,35.8,0.253,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+606,0,109,79,39,61,33.8,0.337,44,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+607,0,103,73,41,154,25.5,0.553,46,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Low
+608,3,108,79,47,106,38.2,0.844,49,1,Diabetic,Obese,41-50,Pre-diabetic,High
+609,2,99,53,33,118,42.2,0.711,40,1,Diabetic,Obese,41-50,Normal,High
+610,6,166,87,48,105,34.2,0.982,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+611,1,136,63,12,152,31.5,0.05,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+612,2,121,57,8,32,23.8,0.678,56,0,Non-Diabetic,Normal,51-60,Pre-diabetic,Medium
+613,0,136,74,31,93,19.6,0.514,21,0,Non-Diabetic,Normal,21-30,Diabetic Range,Medium
+614,3,97,72,21,0,25.6,0.268,33,0,Non-Diabetic,Overweight,31-40,Normal,Low
+615,0,153,80,32,41,33,0.557,26,1,Diabetic,Obese,21-30,Diabetic Range,High
+616,5,123,58,30,99,39.4,0.554,27,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+617,8,124,62,26,0,39.9,0.847,56,1,Diabetic,Obese,51-60,Pre-diabetic,High
+618,3,93,58,30,89,28.5,0.309,37,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+619,5,149,61,41,265,36.4,0.429,49,1,Diabetic,Obese,41-50,Diabetic Range,High
+620,1,118,58,37,0,27.2,0.245,34,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+621,2,132,52,29,6,27.9,0.516,27,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+622,6,110,69,37,148,44.6,0.869,24,1,Diabetic,Obese,21-30,Pre-diabetic,High
+623,2,107,68,29,127,22.2,0.05,32,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+624,0,103,61,21,34,17.5,0.692,38,0,Non-Diabetic,Underweight,31-40,Pre-diabetic,Low
+625,3,60,68,17,12,29.2,0.437,38,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+626,6,164,80,35,48,37.2,1.021,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+627,4,120,53,38,84,33.5,0.713,30,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+628,2,116,78,40,17,44.7,0.674,33,1,Diabetic,Obese,31-40,Pre-diabetic,High
+629,6,97,68,39,31,25,0.313,39,0,Non-Diabetic,Overweight,31-40,Normal,Low
+630,2,145,63,48,245,39.2,0.352,35,1,Diabetic,Obese,31-40,Diabetic Range,High
+631,5,153,69,44,116,32.7,0.649,26,1,Diabetic,Obese,21-30,Diabetic Range,High
+632,0,113,72,26,77,37.2,0.745,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+633,4,135,59,31,3,26.7,0.333,36,0,Non-Diabetic,Overweight,31-40,Diabetic Range,Medium
+634,1,128,58,40,97,32,0.268,34,0,Non-Diabetic,Obese,31-40,Diabetic Range,Medium
+635,0,94,79,37,41,34.1,0.651,31,0,Non-Diabetic,Obese,31-40,Normal,Medium
+636,4,90,77,47,183,24.6,0.615,43,1,Diabetic,Normal,41-50,Normal,Low
+637,3,106,67,25,0,32.9,0.556,24,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+638,4,96,82,37,9,36,0.457,41,0,Non-Diabetic,Obese,41-50,Normal,High
+639,0,115,58,15,122,31,0.355,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+640,3,92,71,38,70,32.4,0.05,30,0,Non-Diabetic,Obese,31-40,Normal,Medium
+641,1,209,83,25,0,39.6,0.722,54,1,Diabetic,Obese,51-60,Diabetic Range,High
+642,3,101,66,26,54,33.9,0.401,27,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+643,5,74,59,39,304,36.1,0.808,21,1,Diabetic,Obese,21-30,Normal,High
+644,2,166,78,22,169,42,0.857,35,1,Diabetic,Obese,31-40,Diabetic Range,High
+645,2,77,55,43,57,31.6,0.391,23,0,Non-Diabetic,Obese,21-30,Normal,Medium
+646,3,126,63,32,90,28,0.756,28,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+647,0,95,62,39,83,33.2,0.57,40,0,Non-Diabetic,Obese,41-50,Normal,Medium
+648,1,156,75,30,268,25.7,0.241,26,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+649,2,102,63,40,78,34.1,0.69,33,1,Diabetic,Obese,31-40,Pre-diabetic,Medium
+650,4,60,70,28,78,25.5,0.614,35,0,Non-Diabetic,Overweight,31-40,Normal,Low
+651,2,123,105,43,42,33.5,0.41,56,1,Diabetic,Obese,51-60,Pre-diabetic,Medium
+652,5,157,80,40,266,40.3,0.603,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+653,7,154,82,43,116,31.8,0.551,29,1,Diabetic,Obese,21-30,Diabetic Range,High
+654,3,105,40,21,195,24.6,0.45,31,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+655,2,129,78,36,58,25.9,0.089,44,0,Non-Diabetic,Overweight,41-50,Diabetic Range,Medium
+656,5,100,77,33,35,31.2,0.461,40,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+657,1,128,64,39,112,21.1,0.53,25,0,Non-Diabetic,Normal,21-30,Diabetic Range,Medium
+658,4,124,88,55,91,33,0.671,32,1,Diabetic,Obese,31-40,Pre-diabetic,Medium
+659,4,104,77,46,79,37.8,0.606,25,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+660,2,99,85,37,86,32.1,0.347,50,0,Non-Diabetic,Obese,51-60,Normal,Medium
+661,3,60,71,31,97,39.3,0.328,37,0,Non-Diabetic,Obese,31-40,Normal,High
+662,8,108,81,30,13,37.7,0.686,21,1,Diabetic,Obese,21-30,Pre-diabetic,High
+663,2,131,51,24,184,28.1,0.432,29,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+664,11,158,62,22,3,29.1,0.712,37,1,Diabetic,Overweight,31-40,Diabetic Range,High
+665,4,96,99,41,147,22.7,0.281,32,0,Non-Diabetic,Normal,31-40,Normal,Low
+666,0,105,63,16,92,31.5,0.312,24,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+667,10,152,79,33,252,40,0.412,29,1,Diabetic,Obese,21-30,Diabetic Range,High
+668,3,90,72,36,196,35.3,0.199,21,1,Diabetic,Obese,21-30,Normal,High
+669,0,98,82,26,70,19.7,0.223,39,0,Non-Diabetic,Normal,31-40,Normal,Low
+670,4,113,75,38,137,37.6,0.713,28,1,Diabetic,Obese,21-30,Pre-diabetic,High
+671,2,158,61,22,137,35.3,0.412,53,1,Diabetic,Obese,51-60,Diabetic Range,High
+672,4,135,62,24,161,34.7,0.05,48,0,Non-Diabetic,Obese,41-50,Diabetic Range,Medium
+673,0,108,65,30,54,31.6,0.325,32,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+674,5,181,82,35,124,36.8,0.084,44,1,Diabetic,Obese,41-50,Diabetic Range,High
+675,7,130,73,40,206,43.3,0.718,56,1,Diabetic,Obese,51-60,Diabetic Range,High
+676,0,124,88,31,159,39.3,0.65,36,0,Non-Diabetic,Obese,31-40,Pre-diabetic,High
+677,2,125,77,27,48,27,0.377,40,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+678,2,117,75,37,49,32.2,0.403,38,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+679,4,114,85,11,243,37.6,0.788,21,1,Diabetic,Obese,21-30,Pre-diabetic,High
+680,4,164,86,31,123,36.2,0.701,33,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+681,2,104,72,25,192,23.3,0.976,29,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+682,2,119,62,43,156,20.6,0.47,24,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+683,4,166,81,32,128,39,0.772,53,1,Diabetic,Obese,51-60,Diabetic Range,High
+684,6,119,67,36,90,15,0.05,50,0,Non-Diabetic,Underweight,51-60,Pre-diabetic,Medium
+685,0,132,92,28,124,37.3,0.16,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+686,3,86,74,25,217,33,0.525,21,0,Non-Diabetic,Obese,21-30,Normal,Medium
+687,1,116,69,40,143,35.3,0.382,28,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+688,5,118,70,28,0,30.6,0.278,40,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+689,2,82,84,6,50,35.7,0.466,24,0,Non-Diabetic,Obese,21-30,Normal,High
+690,4,90,75,39,118,32.8,0.276,25,0,Non-Diabetic,Obese,21-30,Normal,Medium
+691,2,103,56,38,166,24.6,0.137,26,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+692,3,85,67,4,106,25.3,0.282,21,0,Non-Diabetic,Overweight,21-30,Normal,Low
+693,3,155,73,19,193,42,0.498,30,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+694,6,123,82,31,102,30.4,0.249,49,1,Diabetic,Obese,41-50,Pre-diabetic,Medium
+695,3,107,69,23,169,34.6,0.204,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+696,6,60,52,21,148,19.7,0.244,30,0,Non-Diabetic,Normal,31-40,Normal,Low
+697,2,89,73,27,265,31,0.777,35,1,Diabetic,Obese,31-40,Normal,Medium
+698,0,126,57,27,121,35.6,0.415,42,0,Non-Diabetic,Obese,41-50,Diabetic Range,High
+699,3,148,69,33,188,37.4,0.248,39,1,Diabetic,Obese,31-40,Diabetic Range,High
+700,0,123,94,23,205,37.1,0.82,44,1,Diabetic,Obese,41-50,Pre-diabetic,High
+701,4,112,69,22,0,25.8,0.349,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+702,0,138,63,16,21,22.4,0.535,31,0,Non-Diabetic,Normal,31-40,Diabetic Range,Medium
+703,2,118,72,24,45,24.7,0.496,22,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+704,3,70,77,23,57,24.6,0.287,38,0,Non-Diabetic,Normal,31-40,Normal,Low
+705,6,156,62,25,124,34.2,0.489,43,1,Diabetic,Obese,41-50,Diabetic Range,High
+706,6,155,57,43,317,41.9,0.477,46,1,Diabetic,Obese,41-50,Diabetic Range,High
+707,3,92,59,43,106,29.5,0.86,43,1,Diabetic,Overweight,41-50,Normal,Medium
+708,2,150,78,32,0,24,0.478,58,1,Diabetic,Normal,51-60,Diabetic Range,High
+709,2,123,63,39,188,25.7,0.676,38,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+710,0,97,70,38,265,25.2,0.483,31,0,Non-Diabetic,Overweight,31-40,Normal,Low
+711,2,130,65,15,148,41.5,0.317,22,0,Non-Diabetic,Obese,21-30,Diabetic Range,High
+712,5,112,66,40,80,34.3,0.148,21,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+713,0,112,80,19,264,22.4,0.725,25,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Medium
+714,0,90,90,13,314,35.1,0.672,55,1,Diabetic,Obese,51-60,Normal,High
+715,4,152,53,15,0,30.1,0.197,32,0,Non-Diabetic,Obese,31-40,Diabetic Range,High
+716,0,172,69,18,249,32.7,0.05,54,1,Diabetic,Obese,51-60,Diabetic Range,High
+717,0,86,67,14,23,29,0.179,38,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+718,5,104,58,41,228,31.6,0.375,56,1,Diabetic,Obese,51-60,Pre-diabetic,Medium
+719,7,196,69,36,0,31,0.093,47,1,Diabetic,Obese,41-50,Diabetic Range,High
+720,5,137,92,43,17,37.2,0.825,21,1,Diabetic,Obese,21-30,Diabetic Range,High
+721,0,156,68,56,94,30.1,0.236,60,1,Diabetic,Obese,61+,Diabetic Range,High
+722,2,105,62,20,143,29.3,0.515,38,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+723,2,104,57,36,62,28.1,0.322,36,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+724,7,114,59,23,101,34.5,0.186,39,0,Non-Diabetic,Obese,31-40,Pre-diabetic,Medium
+725,6,87,73,32,146,28.9,0.724,28,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+726,5,106,68,33,145,26.3,0.106,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Low
+727,0,109,72,35,122,30.7,0.899,27,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+728,0,76,58,34,115,25.8,0.292,56,0,Non-Diabetic,Overweight,51-60,Normal,Low
+729,7,79,63,27,182,40.6,0.229,21,0,Non-Diabetic,Obese,21-30,Normal,High
+730,7,150,78,40,172,43.1,0.167,33,1,Diabetic,Obese,31-40,Diabetic Range,High
+731,1,134,58,28,45,24.6,0.849,39,0,Non-Diabetic,Normal,31-40,Diabetic Range,Medium
+732,4,175,93,25,25,38.4,0.602,60,1,Diabetic,Obese,61+,Diabetic Range,High
+733,5,132,61,57,153,40.6,0.617,49,1,Diabetic,Obese,41-50,Diabetic Range,High
+734,3,138,51,30,121,32.1,0.318,21,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+735,4,171,63,11,39,27.5,0.491,30,1,Diabetic,Overweight,31-40,Diabetic Range,High
+736,4,86,49,41,117,27,0.22,47,0,Non-Diabetic,Overweight,41-50,Normal,Low
+737,1,115,71,34,10,15.2,0.576,50,0,Non-Diabetic,Underweight,51-60,Pre-diabetic,Medium
+738,3,75,47,21,201,28,0.05,58,0,Non-Diabetic,Overweight,51-60,Normal,Low
+739,3,96,61,31,109,35.1,0.356,32,0,Non-Diabetic,Obese,31-40,Normal,High
+740,8,117,64,31,66,30.4,0.243,43,0,Non-Diabetic,Obese,41-50,Pre-diabetic,Medium
+741,1,83,68,30,43,28.2,0.313,29,0,Non-Diabetic,Overweight,21-30,Normal,Medium
+742,0,60,69,16,113,20.6,0.592,37,0,Non-Diabetic,Normal,31-40,Normal,Low
+743,1,103,69,22,165,31,0.751,23,0,Non-Diabetic,Obese,21-30,Pre-diabetic,Medium
+744,4,116,72,14,235,31.8,0.572,23,1,Diabetic,Obese,21-30,Pre-diabetic,Medium
+745,1,116,72,38,170,37.9,0.587,58,1,Diabetic,Obese,51-60,Pre-diabetic,High
+746,4,92,64,27,128,26.5,0.418,44,0,Non-Diabetic,Overweight,41-50,Normal,Low
+747,4,101,70,33,58,23.9,0.294,34,0,Non-Diabetic,Normal,31-40,Pre-diabetic,Low
+748,1,159,63,30,141,29.3,0.121,26,0,Non-Diabetic,Overweight,21-30,Diabetic Range,High
+749,4,122,68,32,170,25.2,0.05,41,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+750,1,60,49,19,180,27.3,0.215,22,0,Non-Diabetic,Overweight,21-30,Normal,Low
+751,4,145,75,54,127,37.4,0.942,41,1,Diabetic,Obese,41-50,Diabetic Range,High
+752,4,114,61,24,174,28.3,0.428,21,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+753,8,174,70,43,67,37.5,0.897,50,1,Diabetic,Obese,51-60,Diabetic Range,High
+754,2,83,56,45,82,28.8,0.125,33,0,Non-Diabetic,Overweight,31-40,Normal,Medium
+755,5,76,69,17,32,32.3,0.187,29,0,Non-Diabetic,Obese,21-30,Normal,Medium
+756,2,106,71,35,54,22.6,0.463,21,0,Non-Diabetic,Normal,21-30,Pre-diabetic,Low
+757,5,130,69,30,160,30,0.574,23,0,Non-Diabetic,Obese,21-30,Diabetic Range,Medium
+758,5,130,55,33,142,25.8,0.05,24,0,Non-Diabetic,Overweight,21-30,Diabetic Range,Medium
+759,0,122,50,35,19,27.5,0.778,24,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+760,4,100,65,3,212,28.1,0.562,36,0,Non-Diabetic,Overweight,31-40,Pre-diabetic,Medium
+761,5,130,79,44,0,37.3,0.57,64,1,Diabetic,Obese,61+,Diabetic Range,High
+762,1,113,75,23,155,41.3,0.55,28,0,Non-Diabetic,Obese,21-30,Pre-diabetic,High
+763,8,96,72,28,0,29.1,0.668,50,1,Diabetic,Overweight,51-60,Normal,Medium
+764,3,76,56,43,57,32.2,0.447,35,0,Non-Diabetic,Obese,31-40,Normal,Medium
+765,0,121,74,18,129,29.2,0.32,47,0,Non-Diabetic,Overweight,41-50,Pre-diabetic,Medium
+766,3,125,59,14,160,29.8,0.82,29,0,Non-Diabetic,Overweight,21-30,Pre-diabetic,Medium
+767,4,106,88,25,262,41,0.932,34,1,Diabetic,Obese,31-40,Pre-diabetic,High
+768,7,88,73,10,135,31.1,0.22,34,0,Non-Diabetic,Obese,31-40,Normal,Medium
